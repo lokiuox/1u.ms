@@ -97,11 +97,11 @@ To make up a domain that resolves only to an IPv6 address, use the following syn
 
 `make-ip-v6-<IP>-rr.1u.ms`
 
-Colons must be replaced with letter `c`. As always, random prefix and suffix can be used:
+Colons must be replaced with letter `l`. As always, random prefix and suffix can be used:
 
 ```shell
-$ host -t AAAA prefix-make-ip-v6-1c2cc3-rr-suffix.1u.ms
-prefix-make-ip-v6-1c2cc3-rr-suffix.1u.ms has IPv6 address 1:2::3
+$ host -t AAAA prefix-make-ip-v6-1l2ll3-rr-suffix.1u.ms
+prefix-make-ip-v6-1l2ll3-rr-suffix.1u.ms has IPv6 address 1:2::3
 ```
 
 #### CNAMEs
